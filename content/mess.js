@@ -45,18 +45,6 @@ function mess(c, wait_ms = 2000) {
     window.messResize?.(); // call messResize if mess defines it
   });
 
-<<<<<<< HEAD
-  function createToggle(){
-    document.body.insertAdjacentHTML('beforeend', `
-      <div class="mess-toggle">
-          <label class="switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-                <div class="slider round"></div>
-          </label>
-      </div>`);
-    }
-  }
-=======
   function createMessUI() {
     document.body.insertAdjacentHTML(
       "beforeend",
@@ -71,4 +59,3 @@ function mess(c, wait_ms = 2000) {
     );
   }
 }
->>>>>>> upstream/mess
